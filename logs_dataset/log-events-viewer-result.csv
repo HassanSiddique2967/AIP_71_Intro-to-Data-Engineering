@@ -1,0 +1,515 @@
+timestamp,message
+1757511342804,"INFO	2025-09-10T13:35:42,804	10153	org.apache.spark.metrics.source.StageSkewness	[Thread-10]	29	[Observability] Skewness metric using Skewness Factor = 5
+"
+1757511342805,"INFO	2025-09-10T13:35:42,805	10154	org.apache.spark.metrics.source.ObservabilityTaskInfoRecorderListener	[Thread-10]	68	PerformanceMetricsSource is initiated
+"
+1757511342805,"INFO	2025-09-10T13:35:42,805	10154	com.amazonaws.services.glue.GlueContext	[Thread-10]	129	ObservabilityMetrics configured and enabled
+"
+1757511342834,"INFO	2025-09-10T13:35:42,833	10182	com.amazonaws.services.glue.util.Job$	[Thread-10]	94	runId Method is Invoked 
+"
+1757511342834,"INFO	2025-09-10T13:35:42,834	10183	com.amazonaws.services.glue.util.Job$	[Thread-10]	103	Job run ID under runId method is jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d 
+"
+1757511342867,"INFO	2025-09-10T13:35:42,867	10216	com.amazon.ws.emr.hadoop.fs.guice.DefaultAWSCredentialsProviderFactory	[Thread-10]	72	Unable to create provider using constructor: DefaultAWSCredentialsProviderChain(java.net.URI, org.apache.hadoop.conf.Configuration)
+"
+1757511342868,"INFO	2025-09-10T13:35:42,868	10217	com.amazon.ws.emr.hadoop.fs.util.ClientConfigurationFactory	[Thread-10]	85	Set initial getObject socket timeout to 2000 ms.
+"
+1757511342870,"INFO	2025-09-10T13:35:42,870	10219	com.amazonaws.services.glue.util.FileListPersistence	[Thread-10]	37	create FileListPersistence with conf: fs.s3.serverSideEncryption.kms.keyId: None
+"
+1757511342872,"INFO	2025-09-10T13:35:42,872	10221	com.amazonaws.services.glue.utils.EndpointConfig$	[Thread-10]	36	 STAGE is prod
+"
+1757511342873,"INFO	2025-09-10T13:35:42,873	10222	com.amazonaws.services.glue.utils.EndpointConfig$	[Thread-10]	90	Endpoints: {credentials_provider=com.amazonaws.auth.DefaultAWSCredentialsProviderChain, glue.endpoint=https://glue.us-east-1.amazonaws.com, lakeformation.endpoint=https://lakeformation.us-east-1.amazonaws.com, jes.endpoint=https://glue-jes-prod.us-east-1.amazonaws.com, region=us-east-1}
+"
+1757511342901,"INFO	2025-09-10T13:35:42,900	10249	com.amazonaws.services.glue.util.AvroReaderUtil$	[Thread-10]	245	Creating default Avro field parser for version 1.7.
+"
+1757511343062,"INFO	2025-09-10T13:35:43,061	10410	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_0 stored as values in memory (estimated size 243.0 KiB, free 5.8 GiB)
+"
+1757511343157,"INFO	2025-09-10T13:35:43,156	10505	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_0_piece0 stored as bytes in memory (estimated size 40.6 KiB, actual size: 40.6 KiB, free 5.8 GiB)
+"
+1757511343159,"INFO	2025-09-10T13:35:43,159	10508	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_0_piece0 in memory on 172.39.49.172:37387 (size: 40.6 KiB, free: 5.8 GiB)
+"
+1757511343165,"INFO	2025-09-10T13:35:43,165	10514	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 0 from broadcast at DynamoConnection.scala:55
+"
+1757511343178,"INFO	2025-09-10T13:35:43,178	10527	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_1 stored as values in memory (estimated size 243.0 KiB, free 5.8 GiB)
+"
+1757511343221,"INFO	2025-09-10T13:35:43,221	10570	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_1_piece0 stored as bytes in memory (estimated size 40.6 KiB, actual size: 40.6 KiB, free 5.8 GiB)
+"
+1757511343231,"INFO	2025-09-10T13:35:43,230	10579	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_1_piece0 in memory on 172.39.49.172:37387 (size: 40.6 KiB, free: 5.8 GiB)
+"
+1757511343234,"INFO	2025-09-10T13:35:43,234	10583	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 1 from broadcast at DynamoConnection.scala:55
+"
+1757511343236,"INFO	2025-09-10T13:35:43,236	10585	com.amazonaws.services.glue.util.JobBookmark$	[Thread-10]	71	jobbookmark is not enabled, do not init AWSGlueJobBookMarkService
+"
+1757511343246,"INFO	2025-09-10T13:35:43,246	10595	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_0_piece0 on 172.39.49.172:37387 in memory (size: 40.6 KiB, free: 5.8 GiB)
+"
+1757511343258,"INFO	2025-09-10T13:35:43,257	10606	com.amazonaws.services.glue.GlueContext	[Thread-10]	917	Glue secret manager integration: secretId is not provided.
+"
+1757511343829,"INFO	2025-09-10T13:35:43,829	11178	com.amazonaws.services.glue.GlueContext	[Thread-10]	1046	The DataSource in action : com.amazonaws.services.glue.HadoopDataSource
+"
+1757511343846,"TRACE	2025-09-10T13:35:43,845	11194	com.amazonaws.services.glue.HadoopDataSource	[Thread-10]	552	DataSource - compression type from source options used: none
+"
+1757511343873,"INFO	2025-09-10T13:35:43,872	11221	com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark	[Thread-10]	392	IncompletePartitionFilter(partitionCreationEpoch=0, incompletePartition=)
+"
+1757511343873,"INFO	2025-09-10T13:35:43,873	11222	com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark	[Thread-10]	393	newPartitionFilter(partitionCreationEpoch=0, oldPartitions=Set())
+INFO	2025-09-10T13:35:43,873	11222	com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark	[Thread-10]	394	UnprocessedPartitionFilter(partitionCreationEpoch=0, oldPartitions=Set())
+"
+1757511343874,"INFO	2025-09-10T13:35:43,874	11223	com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark	[Thread-10]	399	last job run range: low inconsistency range begin: 1970-01-01T00:00:00Z, 
+ job run range begin: 1970-01-01T00:00:00Z, 
+ high inconsistency range begin: 2025-09-10T13:20:43.866806243Z, 
+ job run range end: 2025-09-10T13:35:43.866806243Z
+"
+1757511343929,"INFO	2025-09-10T13:35:43,929	11278	com.amazon.ws.emr.hadoop.fs.guice.DefaultAWSCredentialsProviderFactory	[Thread-10]	72	Unable to create provider using constructor: DefaultAWSCredentialsProviderChain(java.net.URI, org.apache.hadoop.conf.Configuration)
+"
+1757511343930,"INFO	2025-09-10T13:35:43,930	11279	com.amazon.ws.emr.hadoop.fs.util.ClientConfigurationFactory	[Thread-10]	85	Set initial getObject socket timeout to 2000 ms.
+"
+1757511344477,"INFO	2025-09-10T13:35:44,476	11825	com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark	[ForkJoinPool-2-worker-1]	422	After initial job bookmarks filter, processing 100.00% of 1 files in partition DynamicFramePartition(com.amazonaws.services.glue.DynamicRecord@a0139eb8,s3://data-engineering-task-bucket/ncr_ride_bookings.csv,0).
+"
+1757511344479,"TRACE	2025-09-10T13:35:44,478	11827	com.amazonaws.services.glue.HadoopDataSource	[Thread-10]	373	DataSource - grouping_none
+"
+1757511344479,"INFO	2025-09-10T13:35:44,479	11828	com.amazonaws.services.glue.HadoopDataSource	[Thread-10]	569	nonSplittable: false, disableSplitting: false, catalogCompressionNotSplittable: false, groupFilesTapeOption: none, format: csv, isColumnar: false
+"
+1757511344516,"INFO	2025-09-10T13:35:44,515	11864	com.hadoop.compression.lzo.GPLNativeCodeLoader	[Thread-10]	34	Loaded native gpl library
+"
+1757511344520,"INFO	2025-09-10T13:35:44,520	11869	com.hadoop.compression.lzo.LzoCodec	[Thread-10]	76	Successfully loaded & initialized native-lzo library [hadoop-lzo rev 049362b7cf53ff5f739d6b1532457f2c6cd495e8]
+"
+1757511344658,"INFO	2025-09-10T13:35:44,657	12006	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_2 stored as values in memory (estimated size 245.7 KiB, free 5.8 GiB)
+"
+1757511344669,"INFO	2025-09-10T13:35:44,669	12018	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_1_piece0 on 172.39.49.172:37387 in memory (size: 40.6 KiB, free: 5.8 GiB)
+"
+1757511344693,"INFO	2025-09-10T13:35:44,692	12041	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_2_piece0 stored as bytes in memory (estimated size 41.8 KiB, actual size: 41.8 KiB, free 5.8 GiB)
+"
+1757511344694,"INFO	2025-09-10T13:35:44,693	12042	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_2_piece0 in memory on 172.39.49.172:37387 (size: 41.8 KiB, free: 5.8 GiB)
+"
+1757511344699,"INFO	2025-09-10T13:35:44,699	12048	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 2 from newAPIHadoopRDD at DataSource.scala:440
+"
+1757511344756,"TRACE	2025-09-10T13:35:44,756	12105	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	286	DynamicFrame - create
+"
+1757511344863,"TRACE	2025-09-10T13:35:44,862	12211	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	1469	DynamicFrame - applyMapping
+"
+1757511345033,"TRACE	2025-09-10T13:35:45,032	12381	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	286	DynamicFrame - create
+"
+1757511345049,"TRACE	2025-09-10T13:35:45,048	12397	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	363	DynamicFrame - toDF
+"
+1757511345208,"INFO	2025-09-10T13:35:45,208	12557	org.apache.spark.sql.internal.SharedState	[Thread-10]	60	spark.sql.warehouse.dir is not set, but hive.metastore.warehouse.dir is set. Setting spark.sql.warehouse.dir to the value of hive.metastore.warehouse.dir.
+"
+1757511345212,"INFO	2025-09-10T13:35:45,212	12561	org.apache.spark.sql.internal.SharedState	[Thread-10]	60	Warehouse path is 'file:/tmp/spark-warehouse'.
+"
+1757511348620,"INFO	2025-09-10T13:35:48,619	15968	org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator	[Thread-10]	60	Code generated in 350.186655 ms
+"
+1757511348677,"TRACE	2025-09-10T13:35:48,676	16025	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	286	DynamicFrame - create
+"
+1757511348696,"TRACE	2025-09-10T13:35:48,695	16044	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	363	DynamicFrame - toDF
+"
+1757511348872,"INFO	2025-09-10T13:35:48,871	16220	com.amazonaws.services.dataquality.EvaluateDataQuality$	[Thread-10]	210	Starting Evaluate Data Quality Run jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d for job: Uber_ride_feature_engieering
+"
+1757511349050,"INFO	2025-09-10T13:35:49,049	16398	com.amazonaws.glue.ml.dataquality.dqdl.model.condition.number.NumberBasedCondition	[Thread-10]	48	Evaluating condition for rule: ColumnCount > 0
+"
+1757511349050,"INFO	2025-09-10T13:35:49,050	16399	com.amazonaws.glue.ml.dataquality.dqdl.model.condition.number.NumberBasedCondition	[Thread-10]	78	17.0 > 0.0? true
+"
+1757511350377,"INFO	2025-09-10T13:35:50,377	17726	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint	[dispatcher-CoarseGrainedScheduler]	60	Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.35.6.172:57040) with ID 1,  ResourceProfileId 0
+"
+1757511350379,"INFO	2025-09-10T13:35:50,379	17728	org.apache.spark.executor.ExecutorLogUrlHandler	[dispatcher-CoarseGrainedScheduler]	60	Fail to renew executor log urls: some of required attributes are missing in app's event log.. Required: Set(CONTAINER_ID) / available: Set(). Falling back to show app's original log urls.
+"
+1757511350382,"INFO	2025-09-10T13:35:50,381	17730	org.apache.spark.scheduler.cluster.glue.ExecutorEventListener	[spark-listener-group-shared]	60	Got executor added event for 1 @ 1757511350379
+"
+1757511350382,"INFO	2025-09-10T13:35:50,382	17731	org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator	[spark-listener-group-shared]	60	connected executor 1
+"
+1757511350456,"INFO	2025-09-10T13:35:50,456	17805	org.apache.spark.storage.BlockManagerMasterEndpoint	[dispatcher-BlockManagerMaster]	60	Registering block manager 172.35.6.172:40777 with 5.8 GiB RAM, BlockManagerId(1, 172.35.6.172, 40777, None)
+"
+1757511350788,"INFO	2025-09-10T13:35:50,788	18137	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint	[dispatcher-CoarseGrainedScheduler]	60	Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.36.232.66:50532) with ID 2,  ResourceProfileId 0
+"
+1757511350790,"INFO	2025-09-10T13:35:50,789	18138	org.apache.spark.scheduler.cluster.glue.ExecutorEventListener	[spark-listener-group-shared]	60	Got executor added event for 2 @ 1757511350789
+"
+1757511350790,"INFO	2025-09-10T13:35:50,789	18138	org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator	[spark-listener-group-shared]	60	connected executor 2
+"
+1757511350858,"INFO	2025-09-10T13:35:50,857	18206	org.apache.spark.storage.BlockManagerMasterEndpoint	[dispatcher-BlockManagerMaster]	60	Registering block manager 172.36.232.66:46411 with 5.8 GiB RAM, BlockManagerId(2, 172.36.232.66, 46411, None)
+"
+1757511350919,"INFO	2025-09-10T13:35:50,918	18267	org.apache.spark.sql.execution.SQLExecution	[Thread-10]	60	Generating and posting SparkListenerSQLExecutionObfuscatedInfo...
+"
+1757511350922,"INFO	2025-09-10T13:35:50,921	18270	org.apache.spark.sql.execution.SQLExecution	[Thread-10]	60	Posted SparkListenerSQLExecutionObfuscatedInfo in 3 ms
+"
+1757511351676,"INFO	2025-09-10T13:35:51,676	19025	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint	[dispatcher-CoarseGrainedScheduler]	60	Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.34.197.149:44190) with ID 3,  ResourceProfileId 0
+"
+1757511351678,"INFO	2025-09-10T13:35:51,677	19026	org.apache.spark.scheduler.cluster.glue.ExecutorEventListener	[spark-listener-group-shared]	60	Got executor added event for 3 @ 1757511351677
+"
+1757511351678,"INFO	2025-09-10T13:35:51,678	19027	org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator	[spark-listener-group-shared]	60	connected executor 3
+"
+1757511351757,"INFO	2025-09-10T13:35:51,756	19105	org.apache.spark.storage.BlockManagerMasterEndpoint	[dispatcher-BlockManagerMaster]	60	Registering block manager 172.34.197.149:46121 with 5.8 GiB RAM, BlockManagerId(3, 172.34.197.149, 46121, None)
+"
+1757511351878,"INFO	2025-09-10T13:35:51,877	19226	org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator	[Thread-10]	60	Code generated in 81.1153 ms
+"
+1757511352037,"INFO	2025-09-10T13:35:52,036	19385	org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator	[Thread-10]	60	Code generated in 39.991893 ms
+"
+1757511352070,"TRACE	2025-09-10T13:35:52,070	19419	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	286	DynamicFrame - create
+"
+1757511352173,"INFO	2025-09-10T13:35:52,172	19521	org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator	[Thread-10]	60	Code generated in 34.492877 ms
+"
+1757511352183,"TRACE	2025-09-10T13:35:52,183	19532	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	286	DynamicFrame - create
+"
+1757511352186,"INFO	2025-09-10T13:35:52,185	19534	com.amazonaws.services.glue.GlueContext	[Thread-10]	917	Glue secret manager integration: secretId is not provided.
+"
+1757511352188,"TRACE	2025-09-10T13:35:52,187	19536	com.amazonaws.services.glue.GlueContext	[Thread-10]	1116	datasink_s3 is used.
+"
+1757511352267,"INFO	2025-09-10T13:35:52,267	19616	com.amazonaws.services.glue.GlueContext	[Thread-10]	1170	The DataSink in action for the given format/connectionType (s3) is com.amazonaws.services.glue.sinks.HadoopDataSink
+"
+1757511352438,"INFO	2025-09-10T13:35:52,437	19786	com.amazon.ws.emr.hadoop.fs.guice.DefaultAWSCredentialsProviderFactory	[Thread-10]	72	Unable to create provider using constructor: DefaultAWSCredentialsProviderChain(java.net.URI, org.apache.hadoop.conf.Configuration)
+"
+1757511352442,"INFO	2025-09-10T13:35:52,441	19790	com.amazon.ws.emr.hadoop.fs.util.ClientConfigurationFactory	[Thread-10]	85	Set initial getObject socket timeout to 2000 ms.
+"
+1757511352461,"INFO	2025-09-10T13:35:52,460	19809	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_3 stored as values in memory (estimated size 24.0 B, free 5.8 GiB)
+"
+1757511352463,"INFO	2025-09-10T13:35:52,463	19812	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_3_piece0 stored as bytes in memory (estimated size 89.0 B, actual size: 89.0 B, free 5.8 GiB)
+"
+1757511352464,"INFO	2025-09-10T13:35:52,464	19813	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_3_piece0 in memory on 172.39.49.172:37387 (size: 89.0 B, free: 5.8 GiB)
+"
+1757511352471,"INFO	2025-09-10T13:35:52,471	19820	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 3 from broadcast at HadoopDataSink.scala:207
+"
+1757511352485,"INFO	2025-09-10T13:35:52,484	19833	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_4 stored as values in memory (estimated size 88.0 B, free 5.8 GiB)
+"
+1757511352489,"INFO	2025-09-10T13:35:52,489	19838	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_4_piece0 stored as bytes in memory (estimated size 315.0 B, actual size: 315.0 B, free 5.8 GiB)
+"
+1757511352490,"INFO	2025-09-10T13:35:52,490	19839	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_4_piece0 in memory on 172.39.49.172:37387 (size: 315.0 B, free: 5.8 GiB)
+"
+1757511352492,"INFO	2025-09-10T13:35:52,491	19840	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 4 from broadcast at HadoopDataSink.scala:213
+"
+1757511352542,"INFO	2025-09-10T13:35:52,541	19890	org.apache.spark.SparkContext	[Thread-10]	60	Starting job: runJob at GlueParquetHadoopWriter.scala:176
+"
+1757511352564,"INFO	2025-09-10T13:35:52,563	19912	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Got job 0 (runJob at GlueParquetHadoopWriter.scala:176) with 1 output partitions
+"
+1757511352564,"INFO	2025-09-10T13:35:52,564	19913	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Final stage: ResultStage 0 (runJob at GlueParquetHadoopWriter.scala:176)
+"
+1757511352565,"INFO	2025-09-10T13:35:52,564	19913	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Parents of final stage: List()
+"
+1757511352567,"INFO	2025-09-10T13:35:52,567	19916	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Missing parents: List()
+"
+1757511352594,"INFO	2025-09-10T13:35:52,594	19943	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting ResultStage 0 (MapPartitionsRDD[27] at filter at DynamicFrame.scala:165), which has no missing parents
+"
+1757511352665,"INFO	2025-09-10T13:35:52,665	20014	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_5 stored as values in memory (estimated size 225.7 KiB, free 5.8 GiB)
+"
+1757511352671,"INFO	2025-09-10T13:35:52,671	20020	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_5_piece0 stored as bytes in memory (estimated size 83.0 KiB, actual size: 83.0 KiB, free 5.8 GiB)
+"
+1757511352672,"INFO	2025-09-10T13:35:52,672	20021	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_5_piece0 in memory on 172.39.49.172:37387 (size: 83.0 KiB, free: 5.8 GiB)
+"
+1757511352674,"INFO	2025-09-10T13:35:52,674	20023	org.apache.spark.SparkContext	[dag-scheduler-event-loop]	60	Created broadcast 5 from broadcast at DAGScheduler.scala:1664
+"
+1757511352699,"INFO	2025-09-10T13:35:52,698	20047	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[27] at filter at DynamicFrame.scala:165) (first 15 tasks are for partitions Vector(0))
+"
+1757511352701,"INFO	2025-09-10T13:35:52,700	20049	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Adding task set 0.0 with 1 tasks resource profile 0
+"
+1757511352735,"INFO	2025-09-10T13:35:52,735	20084	org.apache.spark.scheduler.TaskSetManager	[dispatcher-CoarseGrainedScheduler]	60	Starting task 0.0 in stage 0.0 (TID 0) (172.36.232.66, executor 2, partition 0, ANY, 9866 bytes) 
+"
+1757511353018,"INFO	2025-09-10T13:35:53,018	20367	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_5_piece0 in memory on 172.36.232.66:46411 (size: 83.0 KiB, free: 5.8 GiB)
+"
+1757511354324,"INFO	2025-09-10T13:35:54,324	21673	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_2_piece0 in memory on 172.36.232.66:46411 (size: 41.8 KiB, free: 5.8 GiB)
+"
+1757511365819,"INFO	2025-09-10T13:36:05,818	33167	org.apache.spark.scheduler.TaskSetManager	[task-result-getter-0]	60	Finished task 0.0 in stage 0.0 (TID 0) in 13098 ms on 172.36.232.66 (executor 2) (1/1)
+"
+1757511365821,"INFO	2025-09-10T13:36:05,821	33170	org.apache.spark.scheduler.TaskSchedulerImpl	[task-result-getter-0]	60	Removed TaskSet 0.0, whose tasks have all completed, from pool 
+"
+1757511365825,"INFO	2025-09-10T13:36:05,825	33174	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	ResultStage 0 (runJob at GlueParquetHadoopWriter.scala:176) finished in 13.195 s
+"
+1757511365835,"INFO	2025-09-10T13:36:05,835	33184	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+"
+1757511365836,"INFO	2025-09-10T13:36:05,836	33185	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Killing all running tasks in stage 0: Stage finished
+"
+1757511365839,"INFO	2025-09-10T13:36:05,838	33187	org.apache.spark.scheduler.DAGScheduler	[Thread-10]	60	Job 0 finished: runJob at GlueParquetHadoopWriter.scala:176, took 13.296707 s
+"
+1757511365842,"INFO	2025-09-10T13:36:05,842	33191	com.amazonaws.services.glue.sinks.HadoopDataSink	[Thread-10]	265	enableUpdateCatalog = false
+"
+1757511365843,"INFO	2025-09-10T13:36:05,842	33191	com.amazonaws.services.glue.sinks.HadoopDataSink	[Thread-10]	266	partitionKeys is empty - true
+"
+1757511365844,"INFO	2025-09-10T13:36:05,843	33192	com.amazonaws.services.glue.sinks.HadoopDataSink	[Thread-10]	267	nameSpace: , table: 
+"
+1757511365846,"TRACE	2025-09-10T13:36:05,846	33195	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	286	DynamicFrame - create
+"
+1757511365849,"INFO	2025-09-10T13:36:05,848	33197	com.amazonaws.services.glue.GlueContext	[Thread-10]	917	Glue secret manager integration: secretId is not provided.
+"
+1757511365850,"TRACE	2025-09-10T13:36:05,849	33198	com.amazonaws.services.glue.GlueContext	[Thread-10]	1116	datasink_s3 is used.
+"
+1757511365851,"INFO	2025-09-10T13:36:05,851	33200	com.amazonaws.services.glue.GlueContext	[Thread-10]	1170	The DataSink in action for the given format/connectionType (s3) is com.amazonaws.services.glue.sinks.HadoopDataSink
+"
+1757511365889,"INFO	2025-09-10T13:36:05,889	33238	com.amazonaws.services.glue.writers.AvroWriterUtil.AvroRecordBuilderUtil$	[Thread-10]	246	Creating default Avro record builder for version 1.7.
+"
+1757511365905,"INFO	2025-09-10T13:36:05,904	33253	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_6 stored as values in memory (estimated size 24.0 B, free 5.8 GiB)
+"
+1757511365907,"INFO	2025-09-10T13:36:05,907	33256	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_6_piece0 stored as bytes in memory (estimated size 89.0 B, actual size: 89.0 B, free 5.8 GiB)
+"
+1757511365908,"INFO	2025-09-10T13:36:05,907	33256	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_6_piece0 in memory on 172.39.49.172:37387 (size: 89.0 B, free: 5.8 GiB)
+"
+1757511365910,"INFO	2025-09-10T13:36:05,909	33258	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 6 from broadcast at HadoopDataSink.scala:207
+"
+1757511365911,"INFO	2025-09-10T13:36:05,911	33260	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_7 stored as values in memory (estimated size 88.0 B, free 5.8 GiB)
+"
+1757511365913,"INFO	2025-09-10T13:36:05,912	33261	org.apache.spark.storage.memory.MemoryStore	[Thread-10]	60	Block broadcast_7_piece0 stored as bytes in memory (estimated size 315.0 B, actual size: 315.0 B, free 5.8 GiB)
+"
+1757511365914,"INFO	2025-09-10T13:36:05,914	33263	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_7_piece0 in memory on 172.39.49.172:37387 (size: 315.0 B, free: 5.8 GiB)
+"
+1757511365986,"INFO	2025-09-10T13:36:05,915	33264	org.apache.spark.SparkContext	[Thread-10]	60	Created broadcast 7 from broadcast at HadoopDataSink.scala:213
+"
+1757511365986,"INFO	2025-09-10T13:36:05,938	33287	org.apache.spark.SparkContext	[Thread-10]	60	Starting job: runJob at HadoopWriters.scala:129
+"
+1757511365986,"INFO	2025-09-10T13:36:05,940	33289	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Got job 1 (runJob at HadoopWriters.scala:129) with 1 output partitions
+"
+1757511365986,"INFO	2025-09-10T13:36:05,942	33291	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Final stage: ResultStage 1 (runJob at HadoopWriters.scala:129)
+"
+1757511365986,"INFO	2025-09-10T13:36:05,943	33292	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Parents of final stage: List()
+"
+1757511365986,"INFO	2025-09-10T13:36:05,943	33292	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Missing parents: List()
+"
+1757511365986,"INFO	2025-09-10T13:36:05,944	33293	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting ResultStage 1 (MapPartitionsRDD[29] at filter at DynamicFrame.scala:165), which has no missing parents
+"
+1757511365987,"INFO	2025-09-10T13:36:05,980	33329	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_8 stored as values in memory (estimated size 225.7 KiB, free 5.8 GiB)
+"
+1757511365987,"INFO	2025-09-10T13:36:05,985	33334	org.apache.spark.storage.memory.MemoryStore	[dag-scheduler-event-loop]	60	Block broadcast_8_piece0 stored as bytes in memory (estimated size 83.1 KiB, actual size: 83.1 KiB, free 5.8 GiB)
+"
+1757511365987,"INFO	2025-09-10T13:36:05,986	33335	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_8_piece0 in memory on 172.39.49.172:37387 (size: 83.1 KiB, free: 5.8 GiB)
+"
+1757511365989,"INFO	2025-09-10T13:36:05,989	33338	org.apache.spark.SparkContext	[dag-scheduler-event-loop]	60	Created broadcast 8 from broadcast at DAGScheduler.scala:1664
+"
+1757511365991,"INFO	2025-09-10T13:36:05,991	33340	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[29] at filter at DynamicFrame.scala:165) (first 15 tasks are for partitions Vector(0))
+"
+1757511365992,"INFO	2025-09-10T13:36:05,992	33341	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Adding task set 1.0 with 1 tasks resource profile 0
+"
+1757511365994,"INFO	2025-09-10T13:36:05,994	33343	org.apache.spark.scheduler.TaskSetManager	[dispatcher-CoarseGrainedScheduler]	60	Starting task 0.0 in stage 1.0 (TID 1) (172.34.197.149, executor 3, partition 0, ANY, 9866 bytes) 
+"
+1757511366316,"INFO	2025-09-10T13:36:06,315	33664	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_8_piece0 in memory on 172.34.197.149:46121 (size: 83.1 KiB, free: 5.8 GiB)
+"
+1757511366812,"INFO	2025-09-10T13:36:06,811	34160	com.amazonaws.services.glue.LogPusher	[pool-6-thread-1]	60	uploading file:///var/log/spark/apps to s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/
+"
+1757511367181,"INFO	2025-09-10T13:36:07,180	34529	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_3_piece0 on 172.39.49.172:37387 in memory (size: 89.0 B, free: 5.8 GiB)
+"
+1757511367226,"INFO	2025-09-10T13:36:07,225	34574	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_5_piece0 on 172.39.49.172:37387 in memory (size: 83.0 KiB, free: 5.8 GiB)
+"
+1757511367229,"INFO	2025-09-10T13:36:07,229	34578	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_5_piece0 on 172.36.232.66:46411 in memory (size: 83.0 KiB, free: 5.8 GiB)
+"
+1757511367234,"INFO	2025-09-10T13:36:07,234	34583	com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream	[pool-6-thread-1]	429	close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d.inprogress
+"
+1757511367243,"INFO	2025-09-10T13:36:07,243	34592	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_4_piece0 on 172.39.49.172:37387 in memory (size: 315.0 B, free: 5.8 GiB)
+"
+1757511367590,"INFO	2025-09-10T13:36:07,589	34938	com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream	[pool-6-thread-1]	429	close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/spark-application-1757511341101.inprogress
+"
+1757511368240,"INFO	2025-09-10T13:36:08,240	35589	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Added broadcast_2_piece0 in memory on 172.34.197.149:46121 (size: 41.8 KiB, free: 5.8 GiB)
+"
+1757511372448,"ERROR	2025-09-10T13:36:12,442	39791	org.apache.spark.metrics.sink.GlueCloudWatchReporter	[metrics-coda-hale-metrics-cloud-watch-reporter-1-thread-1]	346	Error reporting metrics to CloudWatch. The data in this CloudWatch API request may have been discarded, did not make it to CloudWatch. 
+java.util.concurrent.ExecutionException: software.amazon.awssdk.services.cloudwatch.model.CloudWatchException: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 374b0407-9d74-4b6a-9058-cc94579d2e47)
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at org.apache.spark.metrics.sink.GlueCloudWatchReporter.report(GlueCloudWatchReporter.java:344) ~[GySDIM-aws-glue-di-package-5.0.708.jar:5.3.0]
+	at com.codahale.metrics.ScheduledReporter.report(ScheduledReporter.java:277) ~[metrics-core-4.2.19.jar:4.2.19]
+	at com.codahale.metrics.ScheduledReporter.lambda$start$0(ScheduledReporter.java:206) ~[metrics-core-4.2.19.jar:4.2.19]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: software.amazon.awssdk.services.cloudwatch.model.CloudWatchException: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 374b0407-9d74-4b6a-9058-cc94579d2e47)
+	at software.amazon.awssdk.services.cloudwatch.model.CloudWatchException$BuilderImpl.build(CloudWatchException.java:104) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.services.cloudwatch.model.CloudWatchException$BuilderImpl.build(CloudWatchException.java:58) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.protocols.query.internal.unmarshall.AwsXmlErrorUnmarshaller.unmarshall(AwsXmlErrorUnmarshaller.java:98) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.protocols.query.unmarshall.AwsXmlErrorProtocolUnmarshaller.handle(AwsXmlErrorProtocolUnmarshaller.java:102) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.protocols.query.unmarshall.AwsXmlErrorProtocolUnmarshaller.handle(AwsXmlErrorProtocolUnmarshaller.java:82) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.http.MetricCollectingHttpResponseHandler.lambda$handle$0(MetricCollectingHttpResponseHandler.java:52) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.util.MetricUtils.measureDurationUnsafe(MetricUtils.java:102) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.util.MetricUtils.measureDurationUnsafe(MetricUtils.java:95) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.http.MetricCollectingHttpResponseHandler.handle(MetricCollectingHttpResponseHandler.java:52) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.http.async.AsyncResponseHandler.lambda$prepare$0(AsyncResponseHandler.java:92) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at software.amazon.awssdk.core.internal.http.async.AsyncResponseHandler$BaosSubscriber.onComplete(AsyncResponseHandler.java:135) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.metrics.BytesReadTrackingPublisher$BytesReadTracker.onComplete(BytesReadTrackingPublisher.java:74) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler$DataCountingPublisher$1.onComplete(ResponseHandler.java:519) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler.runAndLogError(ResponseHandler.java:254) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler.access$600(ResponseHandler.java:77) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler$PublisherAdapter$1.onComplete(ResponseHandler.java:375) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.publishMessage(HandlerPublisher.java:402) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.flushBuffer(HandlerPublisher.java:338) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.receivedDemand(HandlerPublisher.java:291) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.access$200(HandlerPublisher.java:61) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher$ChannelSubscription$1.run(HandlerPublisher.java:495) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	... 1 more
+"
+1757511383443,"INFO	2025-09-10T13:36:23,443	50792	org.apache.spark.scheduler.TaskSetManager	[task-result-getter-1]	60	Finished task 0.0 in stage 1.0 (TID 1) in 17450 ms on 172.34.197.149 (executor 3) (1/1)
+"
+1757511383444,"INFO	2025-09-10T13:36:23,443	50792	org.apache.spark.scheduler.TaskSchedulerImpl	[task-result-getter-1]	60	Removed TaskSet 1.0, whose tasks have all completed, from pool 
+"
+1757511383445,"INFO	2025-09-10T13:36:23,444	50793	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	ResultStage 1 (runJob at HadoopWriters.scala:129) finished in 17.490 s
+"
+1757511383445,"INFO	2025-09-10T13:36:23,445	50794	org.apache.spark.scheduler.DAGScheduler	[dag-scheduler-event-loop]	60	Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+"
+1757511383445,"INFO	2025-09-10T13:36:23,445	50794	org.apache.spark.scheduler.TaskSchedulerImpl	[dag-scheduler-event-loop]	60	Killing all running tasks in stage 1: Stage finished
+"
+1757511383447,"INFO	2025-09-10T13:36:23,446	50795	org.apache.spark.scheduler.DAGScheduler	[Thread-10]	60	Job 1 finished: runJob at HadoopWriters.scala:129, took 17.508275 s
+"
+1757511383447,"INFO	2025-09-10T13:36:23,447	50796	com.amazonaws.services.glue.sinks.HadoopDataSink	[Thread-10]	265	enableUpdateCatalog = false
+"
+1757511383447,"INFO	2025-09-10T13:36:23,447	50796	com.amazonaws.services.glue.sinks.HadoopDataSink	[Thread-10]	266	partitionKeys is empty - true
+"
+1757511383448,"INFO	2025-09-10T13:36:23,447	50796	com.amazonaws.services.glue.sinks.HadoopDataSink	[Thread-10]	267	nameSpace: , table: 
+"
+1757511383449,"TRACE	2025-09-10T13:36:23,448	50797	com.amazonaws.services.glue.DynamicFrame	[Thread-10]	286	DynamicFrame - create
+"
+1757511383502,"INFO	2025-09-10T13:36:23,502	50851	com.amazonaws.services.glue.ProcessLauncher	[main]	60	postprocessing
+"
+1757511383502,"INFO	2025-09-10T13:36:23,502	50851	com.amazonaws.services.glue.ProcessLauncher	[main]	661	Enhance failure reason and emit cloudwatch error metrics.
+"
+1757511383504,"DEBUG	2025-09-10T13:36:23,503	50852	com.amazonaws.services.glue.ProcessLauncher	[main]	666	Original failureReason: 
+"
+1757511383504,"DEBUG	2025-09-10T13:36:23,504	50853	com.amazonaws.services.glue.ProcessLauncher	[main]	667	exceptionErrorMessage is: 
+"
+1757511383521,"INFO	2025-09-10T13:36:23,521	50870	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	34	Emit job error metrics
+"
+1757511383602,"INFO	2025-09-10T13:36:23,602	50951	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	47	Failed to emit error metric data: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 5ae7528c-4e9e-49ea-b415-97e92f2330a1)
+"
+1757511383603,"INFO	2025-09-10T13:36:23,602	50951	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	48	Retry attempt 1/3
+"
+1757511386740,"INFO	2025-09-10T13:36:26,740	54089	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_6_piece0 on 172.39.49.172:37387 in memory (size: 89.0 B, free: 5.8 GiB)
+"
+1757511386746,"INFO	2025-09-10T13:36:26,746	54095	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_8_piece0 on 172.39.49.172:37387 in memory (size: 83.1 KiB, free: 5.8 GiB)
+"
+1757511386752,"INFO	2025-09-10T13:36:26,752	54101	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_8_piece0 on 172.34.197.149:46121 in memory (size: 83.1 KiB, free: 5.8 GiB)
+"
+1757511386764,"INFO	2025-09-10T13:36:26,764	54113	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_7_piece0 on 172.39.49.172:37387 in memory (size: 315.0 B, free: 5.8 GiB)
+"
+1757511386780,"INFO	2025-09-10T13:36:26,779	54128	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_2_piece0 on 172.39.49.172:37387 in memory (size: 41.8 KiB, free: 5.8 GiB)
+"
+1757511386781,"INFO	2025-09-10T13:36:26,780	54129	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_2_piece0 on 172.36.232.66:46411 in memory (size: 41.8 KiB, free: 5.8 GiB)
+"
+1757511386784,"INFO	2025-09-10T13:36:26,783	54132	org.apache.spark.storage.BlockManagerInfo	[dispatcher-BlockManagerMaster]	60	Removed broadcast_2_piece0 on 172.34.197.149:46121 in memory (size: 41.8 KiB, free: 5.8 GiB)
+"
+1757511387572,"INFO	2025-09-10T13:36:27,571	54920	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	34	Emit job error metrics
+"
+1757511387582,"INFO	2025-09-10T13:36:27,581	54930	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	47	Failed to emit error metric data: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 27602b0e-aa57-4dd1-a63e-0b66695f4fca)
+"
+1757511387582,"INFO	2025-09-10T13:36:27,582	54931	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	48	Retry attempt 2/3
+"
+1757511391521,"INFO	2025-09-10T13:36:31,521	58870	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	34	Emit job error metrics
+"
+1757511391532,"INFO	2025-09-10T13:36:31,531	58880	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	47	Failed to emit error metric data: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 03b585d5-f354-4e1c-b1bc-bbb47161f725)
+"
+1757511391532,"INFO	2025-09-10T13:36:31,532	58881	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	48	Retry attempt 3/3
+"
+1757511391532,"WARN	2025-09-10T13:36:31,532	58881	com.amazonaws.services.glue.CloudWatchMetricsEmitter	[main]	52	Max retries reached. Unable to emit error metric data.
+"
+1757511391538,"INFO	2025-09-10T13:36:31,538	58887	com.amazonaws.services.glue.LogPusher	[main]	60	stopping
+"
+1757511391541,"INFO	2025-09-10T13:36:31,541	58890	org.apache.spark.SparkContext	[shutdown-hook-0]	60	Invoking stop() from shutdown hook
+"
+1757511391541,"INFO	2025-09-10T13:36:31,541	58890	org.apache.spark.SparkContext	[shutdown-hook-0]	60	SparkContext is stopping with exitCode 0.
+"
+1757511391545,"INFO	2025-09-10T13:36:31,545	58894	com.amazonaws.services.glueexceptionanalysis.EventLogFileWriter	[spark-listener-group-shared]	70	Logs, events processed and insights are written to file /tmp/glue-exception-analysis-logs/spark-application-1757511341101
+"
+1757511391547,"INFO	2025-09-10T13:36:31,546	58895	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[shutdown-hook-0]	60	Stopping JES Scheduler Backend.
+"
+1757511391548,"INFO	2025-09-10T13:36:31,547	58896	glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics	[spark-listener-group-shared]	43	Spark application ended, timestamp = 1757511391542
+"
+1757511391548,"WARN	2025-09-10T13:36:31,548	58897	glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics	[spark-listener-group-shared]	57	Writing Stage Metrics data serialized as json to /tmp/stageMetrics_flightRecorder
+"
+1757511391548,"INFO	2025-09-10T13:36:31,548	58897	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend	[shutdown-hook-0]	60	Shutting down all executors
+"
+1757511391549,"INFO	2025-09-10T13:36:31,548	58897	org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint	[dispatcher-CoarseGrainedScheduler]	60	Asking each executor to shut down
+"
+1757511391649,"INFO	2025-09-10T13:36:31,649	58998	glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics	[spark-listener-group-shared]	102	Spark application ended, timestamp = 1757511391542
+"
+1757511391658,"INFO	2025-09-10T13:36:31,657	59006	glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics	[spark-listener-group-shared]	116	Writing Task Metrics data serialized as json to /tmp/taskMetrics_flightRecorder
+"
+1757511391737,"INFO	2025-09-10T13:36:31,737	59086	org.apache.spark.MapOutputTrackerMasterEndpoint	[dispatcher-event-loop-3]	60	MapOutputTrackerMasterEndpoint stopped!
+"
+1757511391752,"INFO	2025-09-10T13:36:31,751	59100	org.apache.spark.storage.memory.MemoryStore	[shutdown-hook-0]	60	MemoryStore cleared
+"
+1757511391753,"INFO	2025-09-10T13:36:31,753	59102	org.apache.spark.storage.BlockManager	[shutdown-hook-0]	60	BlockManager stopped
+"
+1757511391759,"INFO	2025-09-10T13:36:31,759	59108	org.apache.spark.storage.BlockManagerMaster	[shutdown-hook-0]	60	BlockManagerMaster stopped
+"
+1757511391825,"ERROR	2025-09-10T13:36:31,823	59172	org.apache.spark.metrics.sink.GlueCloudWatchReporter	[shutdown-hook-0]	346	Error reporting metrics to CloudWatch. The data in this CloudWatch API request may have been discarded, did not make it to CloudWatch. 
+java.util.concurrent.ExecutionException: software.amazon.awssdk.services.cloudwatch.model.CloudWatchException: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 43712ea4-a909-41fb-8a43-da195ba8ab0b)
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at org.apache.spark.metrics.sink.GlueCloudWatchReporter.report(GlueCloudWatchReporter.java:344) ~[GySDIM-aws-glue-di-package-5.0.708.jar:5.3.0]
+	at com.codahale.metrics.ScheduledReporter.report(ScheduledReporter.java:277) ~[metrics-core-4.2.19.jar:4.2.19]
+	at com.codahale.metrics.ScheduledReporter.stop(ScheduledReporter.java:224) ~[metrics-core-4.2.19.jar:4.2.19]
+	at org.apache.spark.metrics.sink.GlueCloudWatchReporter.stop(GlueCloudWatchReporter.java:363) ~[GySDIM-aws-glue-di-package-5.0.708.jar:5.3.0]
+	at org.apache.spark.metrics.sink.GlueCloudwatchSink.stop(GlueCloudwatchSink.scala:141) ~[EMRGlueBootstrap-5.3.0-jar-with-dependencies.jar:5.3.0]
+	at org.apache.spark.metrics.MetricsSystem.$anonfun$stop$1(MetricsSystem.scala:109) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.metrics.MetricsSystem.$anonfun$stop$1$adapted(MetricsSystem.scala:109) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62) ~[scala-library-2.12.18.jar:?]
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55) ~[scala-library-2.12.18.jar:?]
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49) ~[scala-library-2.12.18.jar:?]
+	at org.apache.spark.metrics.MetricsSystem.stop(MetricsSystem.scala:109) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:122) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.SparkContext.$anonfun$stop$25(SparkContext.scala:2411) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1377) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2411) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2317) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.SparkContext.$anonfun$new$35(SparkContext.scala:731) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) ~[scala-library-2.12.18.jar:?]
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1978) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188) ~[spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) [scala-library-2.12.18.jar:?]
+	at scala.util.Try$.apply(Try.scala:213) [scala-library-2.12.18.jar:?]
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188) [spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178) [spark-core_2.12-3.5.4-amzn-0.jar:3.5.4-amzn-0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: software.amazon.awssdk.services.cloudwatch.model.CloudWatchException: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 43712ea4-a909-41fb-8a43-da195ba8ab0b)
+	at software.amazon.awssdk.services.cloudwatch.model.CloudWatchException$BuilderImpl.build(CloudWatchException.java:104) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.services.cloudwatch.model.CloudWatchException$BuilderImpl.build(CloudWatchException.java:58) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.protocols.query.internal.unmarshall.AwsXmlErrorUnmarshaller.unmarshall(AwsXmlErrorUnmarshaller.java:98) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.protocols.query.unmarshall.AwsXmlErrorProtocolUnmarshaller.handle(AwsXmlErrorProtocolUnmarshaller.java:102) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.protocols.query.unmarshall.AwsXmlErrorProtocolUnmarshaller.handle(AwsXmlErrorProtocolUnmarshaller.java:82) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.http.MetricCollectingHttpResponseHandler.lambda$handle$0(MetricCollectingHttpResponseHandler.java:52) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.util.MetricUtils.measureDurationUnsafe(MetricUtils.java:102) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.util.MetricUtils.measureDurationUnsafe(MetricUtils.java:95) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.http.MetricCollectingHttpResponseHandler.handle(MetricCollectingHttpResponseHandler.java:52) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.http.async.AsyncResponseHandler.lambda$prepare$0(AsyncResponseHandler.java:92) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at software.amazon.awssdk.core.internal.http.async.AsyncResponseHandler$BaosSubscriber.onComplete(AsyncResponseHandler.java:135) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.core.internal.metrics.BytesReadTrackingPublisher$BytesReadTracker.onComplete(BytesReadTrackingPublisher.java:74) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler$DataCountingPublisher$1.onComplete(ResponseHandler.java:519) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler.runAndLogError(ResponseHandler.java:254) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler.access$600(ResponseHandler.java:77) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.ResponseHandler$PublisherAdapter$1.onComplete(ResponseHandler.java:375) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.publishMessage(HandlerPublisher.java:402) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.flushBuffer(HandlerPublisher.java:338) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.receivedDemand(HandlerPublisher.java:291) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher.access$200(HandlerPublisher.java:61) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher$ChannelSubscription$1.run(HandlerPublisher.java:495) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	at software.amazon.awssdk.thirdparty.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[aws-sdk-java-bundle-2.29.52.jar:?]
+	... 1 more
+"
+1757511391857,"INFO	2025-09-10T13:36:31,857	59206	org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint	[dispatcher-event-loop-3]	60	OutputCommitCoordinator stopped!
+"
+1757511391909,"INFO	2025-09-10T13:36:31,908	59257	org.apache.spark.SparkContext	[shutdown-hook-0]	60	Successfully stopped SparkContext
+"
+1757511391910,"INFO	2025-09-10T13:36:31,910	59259	com.amazonaws.services.glue.LogPusher	[shutdown-hook-0]	60	uploading file:///var/log/spark/apps to s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/
+"
+1757511391988,"INFO	2025-09-10T13:36:31,987	59336	com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream	[shutdown-hook-0]	429	close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d
+"
+1757511392086,"INFO	2025-09-10T13:36:32,085	59434	com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream	[shutdown-hook-0]	429	close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/spark-application-1757511341101
+"
+1757511392147,"INFO	2025-09-10T13:36:32,147	59496	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Shutdown hook called
+"
+1757511392148,"INFO	2025-09-10T13:36:32,147	59496	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Deleting directory /tmp/spark-1341c081-3290-40d6-b503-fb7367c2e58b/pyspark-5f4d84e5-1a2a-4ab6-b5d5-8ff70ee2223d
+"
+1757511392153,"INFO	2025-09-10T13:36:32,153	59502	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Deleting directory /tmp/spark-0d8aa955-c5b7-4d3a-9a7e-8692efe0179a
+"
+1757511392160,"INFO	2025-09-10T13:36:32,159	59508	org.apache.spark.util.ShutdownHookManager	[shutdown-hook-0]	60	Deleting directory /tmp/spark-1341c081-3290-40d6-b503-fb7367c2e58b
+"

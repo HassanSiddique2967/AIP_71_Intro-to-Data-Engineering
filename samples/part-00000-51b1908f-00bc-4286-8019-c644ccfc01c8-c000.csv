@@ -1,0 +1,21 @@
+ride_date,ride_time,vehicle_type,pickup_location,drop_location,avg_vtat,avg_ctat,cancelled_rides_by_customer,cancelled_rides_by_driver,incomplete_rides,booking_value,ride_distance,driver_ratings,customer_rating,payment_method,vehicle_type_encoded,payment_method_encoded
+2024-03-23,1970-01-01T12:29:38.000Z,eBike,Palam Vihar,Jhilmil,,,,,,,,,,null,1,0
+2024-11-29,1970-01-01T18:01:39.000Z,Go Sedan,Shastri Nagar,Gurgaon Sector 56,4.9,14.0,,,1,237.0,5.73,,,UPI,2,1
+2024-08-23,1970-01-01T08:56:10.000Z,Auto,Khandsa,Malviya Nagar,13.4,25.8,,,,627.0,13.58,4.9,4.9,Debit Card,3,2
+2024-10-21,1970-01-01T17:17:25.000Z,Premier Sedan,Central Secretariat,Inderlok,13.1,28.5,,,,416.0,34.02,4.6,5.0,UPI,4,1
+2024-09-16,1970-01-01T22:08:00.000Z,Bike,Ghitorni Village,Khan Market,5.3,19.6,,,,737.0,48.21,4.1,4.3,UPI,5,1
+2024-02-06,1970-01-01T09:44:56.000Z,Auto,AIIMS,Narsinghpur,5.1,18.1,,,,316.0,4.85,4.1,4.6,UPI,3,1
+2024-06-17,1970-01-01T15:45:58.000Z,Go Mini,Vaishali,Punjabi Bagh,7.1,20.4,,,,640.0,41.24,4.0,4.1,UPI,6,1
+2024-03-19,1970-01-01T17:37:37.000Z,Auto,Mayur Vihar,Cyber Hub,12.1,16.5,,,,136.0,6.56,4.4,4.2,UPI,3,1
+2024-09-14,1970-01-01T12:49:09.000Z,Go Sedan,Noida Sector 62,Noida Sector 18,,,,,,,,,,null,2,0
+2024-12-16,1970-01-01T19:06:48.000Z,Auto,Rohini,Adarsh Nagar,6.1,26.0,,,1,135.0,10.36,,,Cash,3,3
+2024-06-14,1970-01-01T16:24:12.000Z,Auto,Udyog Bhawan,Dwarka Sector 21,7.7,18.9,,,,181.0,19.84,4.2,4.9,Cash,3,3
+2024-09-18,1970-01-01T08:09:38.000Z,Auto,Vidhan Sabha,AIIMS,,,,,,,,,,null,3,0
+2024-06-25,1970-01-01T22:44:15.000Z,eBike,Patel Chowk,Kherki Daula Toll,4.6,,,1,,,,,,null,1,0
+2024-09-11,1970-01-01T19:29:39.000Z,Go Mini,Malviya Nagar,Ghitorni Village,12.2,28.2,,,,394.0,21.44,4.1,4.7,UPI,6,1
+2024-10-18,1970-01-01T18:28:53.000Z,Go Mini,Madipur,GTB Nagar,14.0,30.9,,,,836.0,39.55,4.7,4.4,UPI,6,1
+2024-06-07,1970-01-01T15:05:35.000Z,Auto,Jama Masjid,Khan Market,8.5,36.9,,,,410.0,34.76,4.0,4.9,Uber Wallet,3,4
+2024-07-01,1970-01-01T10:51:16.000Z,Premier Sedan,IGI Airport,Madipur,5.6,27.5,,,,401.0,21.97,4.9,4.3,UPI,4,1
+2024-12-15,1970-01-01T15:08:25.000Z,Go Sedan,Vinobapuri,GTB Nagar,6.0,,,1,,,,,,null,2,0
+2024-11-24,1970-01-01T09:07:10.000Z,eBike,Kashmere Gate,Anand Vihar,12.4,,1,,,,,,,null,1,0
+2024-05-24,1970-01-01T19:53:57.000Z,eBike,Pitampura,Rajiv Nagar,10.3,,,1,,,,,,null,1,0

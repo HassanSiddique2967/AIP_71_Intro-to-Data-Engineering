@@ -1,0 +1,202 @@
+timestamp,log_level,thread,class,line,message_clean,date
+2025-09-10T13:35:42.804Z,INFO,Thread-10,org.apache.spark.metrics.source.StageSkewness,10153,[Observability] Skewness metric using Skewness Factor = 5,2025-09-10
+2025-09-10T13:35:42.805Z,INFO,Thread-10,org.apache.spark.metrics.source.ObservabilityTaskInfoRecorderListener,10154,PerformanceMetricsSource is initiated,2025-09-10
+2025-09-10T13:35:42.805Z,INFO,Thread-10,com.amazonaws.services.glue.GlueContext,10154,ObservabilityMetrics configured and enabled,2025-09-10
+2025-09-10T13:35:42.833Z,INFO,Thread-10,com.amazonaws.services.glue.util.Job$,10182,runId Method is Invoked,2025-09-10
+2025-09-10T13:35:42.834Z,INFO,Thread-10,com.amazonaws.services.glue.util.Job$,10183,Job run ID under runId method is jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d,2025-09-10
+2025-09-10T13:35:42.867Z,INFO,Thread-10,com.amazon.ws.emr.hadoop.fs.guice.DefaultAWSCredentialsProviderFactory,10216,"Unable to create provider using constructor: DefaultAWSCredentialsProviderChain(java.net.URI, org.apache.hadoop.conf.Configuration)",2025-09-10
+2025-09-10T13:35:42.868Z,INFO,Thread-10,com.amazon.ws.emr.hadoop.fs.util.ClientConfigurationFactory,10217,Set initial getObject socket timeout to 2000 ms.,2025-09-10
+2025-09-10T13:35:42.870Z,INFO,Thread-10,com.amazonaws.services.glue.util.FileListPersistence,10219,create FileListPersistence with conf: fs.s3.serverSideEncryption.kms.keyId: None,2025-09-10
+2025-09-10T13:35:42.872Z,INFO,Thread-10,com.amazonaws.services.glue.utils.EndpointConfig$,10221,STAGE is prod,2025-09-10
+2025-09-10T13:35:42.873Z,INFO,Thread-10,com.amazonaws.services.glue.utils.EndpointConfig$,10222,"Endpoints: {credentials_provider=com.amazonaws.auth.DefaultAWSCredentialsProviderChain, glue.endpoint=https://glue.us-east-1.amazonaws.com, lakeformation.endpoint=https://lakeformation.us-east-1.amazonaws.com, jes.endpoint=https://glue-jes-prod.us-east-1.amazonaws.com, region=us-east-1}",2025-09-10
+2025-09-10T13:35:42.900Z,INFO,Thread-10,com.amazonaws.services.glue.util.AvroReaderUtil$,10249,Creating default Avro field parser for version 1.7.,2025-09-10
+2025-09-10T13:35:43.061Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,10410,"Block broadcast_0 stored as values in memory (estimated size 243.0 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:43.156Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,10505,"Block broadcast_0_piece0 stored as bytes in memory (estimated size 40.6 KiB, actual size: 40.6 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:43.159Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,10508,"Added broadcast_0_piece0 in memory on 172.39.49.172:37387 (size: 40.6 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:43.165Z,INFO,Thread-10,org.apache.spark.SparkContext,10514,Created broadcast 0 from broadcast at DynamoConnection.scala:55,2025-09-10
+2025-09-10T13:35:43.178Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,10527,"Block broadcast_1 stored as values in memory (estimated size 243.0 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:43.221Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,10570,"Block broadcast_1_piece0 stored as bytes in memory (estimated size 40.6 KiB, actual size: 40.6 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:43.230Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,10579,"Added broadcast_1_piece0 in memory on 172.39.49.172:37387 (size: 40.6 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:43.234Z,INFO,Thread-10,org.apache.spark.SparkContext,10583,Created broadcast 1 from broadcast at DynamoConnection.scala:55,2025-09-10
+2025-09-10T13:35:43.236Z,INFO,Thread-10,com.amazonaws.services.glue.util.JobBookmark$,10585,"jobbookmark is not enabled, do not init AWSGlueJobBookMarkService",2025-09-10
+2025-09-10T13:35:43.246Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,10595,"Removed broadcast_0_piece0 on 172.39.49.172:37387 in memory (size: 40.6 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:43.257Z,INFO,Thread-10,com.amazonaws.services.glue.GlueContext,10606,Glue secret manager integration: secretId is not provided.,2025-09-10
+2025-09-10T13:35:43.829Z,INFO,Thread-10,com.amazonaws.services.glue.GlueContext,11178,The DataSource in action : com.amazonaws.services.glue.HadoopDataSource,2025-09-10
+2025-09-10T13:35:43.845Z,TRACE,Thread-10,com.amazonaws.services.glue.HadoopDataSource,11194,DataSource - compression type from source options used: none,2025-09-10
+2025-09-10T13:35:43.872Z,INFO,Thread-10,com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark,11221,"IncompletePartitionFilter(partitionCreationEpoch=0, incompletePartition=)",2025-09-10
+2025-09-10T13:35:43.873Z,INFO,Thread-10,com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark,11222,"newPartitionFilter(partitionCreationEpoch=0, oldPartitions=Set())",2025-09-10
+,"",Thread-10,com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark,11222,UnprocessedPartitionFilter(partitionCreationEpoch=0,
+2025-09-10T13:35:43.874Z,INFO,Thread-10,com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark,11223,"last job run range: low inconsistency range begin: 1970-01-01T00:00:00Z,",2025-09-10
+2025-09-10T13:35:43.929Z,INFO,Thread-10,com.amazon.ws.emr.hadoop.fs.guice.DefaultAWSCredentialsProviderFactory,11278,"Unable to create provider using constructor: DefaultAWSCredentialsProviderChain(java.net.URI, org.apache.hadoop.conf.Configuration)",2025-09-10
+2025-09-10T13:35:43.930Z,INFO,Thread-10,com.amazon.ws.emr.hadoop.fs.util.ClientConfigurationFactory,11279,Set initial getObject socket timeout to 2000 ms.,2025-09-10
+2025-09-10T13:35:44.476Z,INFO,ForkJoinPool-2-worker-1,com.amazonaws.services.glue.hadoop.PartitionFilesListerUsingBookmark,11825,"After initial job bookmarks filter, processing 100.00% of 1 files in partition DynamicFramePartition(com.amazonaws.services.glue.DynamicRecord@a0139eb8,s3://data-engineering-task-bucket/ncr_ride_bookings.csv,0).",2025-09-10
+2025-09-10T13:35:44.478Z,TRACE,Thread-10,com.amazonaws.services.glue.HadoopDataSource,11827,DataSource - grouping_none,2025-09-10
+2025-09-10T13:35:44.479Z,INFO,Thread-10,com.amazonaws.services.glue.HadoopDataSource,11828,"nonSplittable: false, disableSplitting: false, catalogCompressionNotSplittable: false, groupFilesTapeOption: none, format: csv, isColumnar: false",2025-09-10
+2025-09-10T13:35:44.515Z,INFO,Thread-10,com.hadoop.compression.lzo.GPLNativeCodeLoader,11864,Loaded native gpl library,2025-09-10
+2025-09-10T13:35:44.520Z,INFO,Thread-10,com.hadoop.compression.lzo.LzoCodec,11869,Successfully loaded & initialized native-lzo library [hadoop-lzo rev 049362b7cf53ff5f739d6b1532457f2c6cd495e8],2025-09-10
+2025-09-10T13:35:44.657Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,12006,"Block broadcast_2 stored as values in memory (estimated size 245.7 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:44.669Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,12018,"Removed broadcast_1_piece0 on 172.39.49.172:37387 in memory (size: 40.6 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:44.692Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,12041,"Block broadcast_2_piece0 stored as bytes in memory (estimated size 41.8 KiB, actual size: 41.8 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:44.693Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,12042,"Added broadcast_2_piece0 in memory on 172.39.49.172:37387 (size: 41.8 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:44.699Z,INFO,Thread-10,org.apache.spark.SparkContext,12048,Created broadcast 2 from newAPIHadoopRDD at DataSource.scala:440,2025-09-10
+2025-09-10T13:35:44.756Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,12105,DynamicFrame - create,2025-09-10
+2025-09-10T13:35:44.862Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,12211,DynamicFrame - applyMapping,2025-09-10
+2025-09-10T13:35:45.032Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,12381,DynamicFrame - create,2025-09-10
+2025-09-10T13:35:45.048Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,12397,DynamicFrame - toDF,2025-09-10
+2025-09-10T13:35:45.208Z,INFO,Thread-10,org.apache.spark.sql.internal.SharedState,12557,"spark.sql.warehouse.dir is not set, but hive.metastore.warehouse.dir is set. Setting spark.sql.warehouse.dir to the value of hive.metastore.warehouse.dir.",2025-09-10
+2025-09-10T13:35:45.212Z,INFO,Thread-10,org.apache.spark.sql.internal.SharedState,12561,Warehouse path is 'file:/tmp/spark-warehouse'.,2025-09-10
+2025-09-10T13:35:48.619Z,INFO,Thread-10,org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator,15968,Code generated in 350.186655 ms,2025-09-10
+2025-09-10T13:35:48.676Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,16025,DynamicFrame - create,2025-09-10
+2025-09-10T13:35:48.695Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,16044,DynamicFrame - toDF,2025-09-10
+2025-09-10T13:35:48.871Z,INFO,Thread-10,com.amazonaws.services.dataquality.EvaluateDataQuality$,16220,Starting Evaluate Data Quality Run jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d for job: Uber_ride_feature_engieering,2025-09-10
+2025-09-10T13:35:49.049Z,INFO,Thread-10,com.amazonaws.glue.ml.dataquality.dqdl.model.condition.number.NumberBasedCondition,16398,Evaluating condition for rule: ColumnCount > 0,2025-09-10
+2025-09-10T13:35:49.050Z,INFO,Thread-10,com.amazonaws.glue.ml.dataquality.dqdl.model.condition.number.NumberBasedCondition,16399,17.0 > 0.0? true,2025-09-10
+2025-09-10T13:35:50.377Z,INFO,dispatcher-CoarseGrainedScheduler,org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint,17726,"Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.35.6.172:57040) with ID 1,  ResourceProfileId 0",2025-09-10
+2025-09-10T13:35:50.379Z,INFO,dispatcher-CoarseGrainedScheduler,org.apache.spark.executor.ExecutorLogUrlHandler,17728,Fail to renew executor log urls: some of required attributes are missing in app's event log.. Required: Set(CONTAINER_ID) / available: Set(). Falling back to show app's original log urls.,2025-09-10
+2025-09-10T13:35:50.381Z,INFO,spark-listener-group-shared,org.apache.spark.scheduler.cluster.glue.ExecutorEventListener,17730,Got executor added event for 1 @ 1757511350379,2025-09-10
+2025-09-10T13:35:50.382Z,INFO,spark-listener-group-shared,org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator,17731,connected executor 1,2025-09-10
+2025-09-10T13:35:50.456Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerMasterEndpoint,17805,"Registering block manager 172.35.6.172:40777 with 5.8 GiB RAM, BlockManagerId(1, 172.35.6.172, 40777, None)",2025-09-10
+2025-09-10T13:35:50.788Z,INFO,dispatcher-CoarseGrainedScheduler,org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint,18137,"Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.36.232.66:50532) with ID 2,  ResourceProfileId 0",2025-09-10
+2025-09-10T13:35:50.789Z,INFO,spark-listener-group-shared,org.apache.spark.scheduler.cluster.glue.ExecutorEventListener,18138,Got executor added event for 2 @ 1757511350789,2025-09-10
+2025-09-10T13:35:50.789Z,INFO,spark-listener-group-shared,org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator,18138,connected executor 2,2025-09-10
+2025-09-10T13:35:50.857Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerMasterEndpoint,18206,"Registering block manager 172.36.232.66:46411 with 5.8 GiB RAM, BlockManagerId(2, 172.36.232.66, 46411, None)",2025-09-10
+2025-09-10T13:35:50.918Z,INFO,Thread-10,org.apache.spark.sql.execution.SQLExecution,18267,Generating and posting SparkListenerSQLExecutionObfuscatedInfo...,2025-09-10
+2025-09-10T13:35:50.921Z,INFO,Thread-10,org.apache.spark.sql.execution.SQLExecution,18270,Posted SparkListenerSQLExecutionObfuscatedInfo in 3 ms,2025-09-10
+2025-09-10T13:35:51.676Z,INFO,dispatcher-CoarseGrainedScheduler,org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint,19025,"Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.34.197.149:44190) with ID 3,  ResourceProfileId 0",2025-09-10
+2025-09-10T13:35:51.677Z,INFO,spark-listener-group-shared,org.apache.spark.scheduler.cluster.glue.ExecutorEventListener,19026,Got executor added event for 3 @ 1757511351677,2025-09-10
+2025-09-10T13:35:51.678Z,INFO,spark-listener-group-shared,org.apache.spark.scheduler.cluster.glue.allocator.ExecutorTaskAllocator,19027,connected executor 3,2025-09-10
+2025-09-10T13:35:51.756Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerMasterEndpoint,19105,"Registering block manager 172.34.197.149:46121 with 5.8 GiB RAM, BlockManagerId(3, 172.34.197.149, 46121, None)",2025-09-10
+2025-09-10T13:35:51.877Z,INFO,Thread-10,org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator,19226,Code generated in 81.1153 ms,2025-09-10
+2025-09-10T13:35:52.036Z,INFO,Thread-10,org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator,19385,Code generated in 39.991893 ms,2025-09-10
+2025-09-10T13:35:52.070Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,19419,DynamicFrame - create,2025-09-10
+2025-09-10T13:35:52.172Z,INFO,Thread-10,org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator,19521,Code generated in 34.492877 ms,2025-09-10
+2025-09-10T13:35:52.183Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,19532,DynamicFrame - create,2025-09-10
+2025-09-10T13:35:52.185Z,INFO,Thread-10,com.amazonaws.services.glue.GlueContext,19534,Glue secret manager integration: secretId is not provided.,2025-09-10
+2025-09-10T13:35:52.187Z,TRACE,Thread-10,com.amazonaws.services.glue.GlueContext,19536,datasink_s3 is used.,2025-09-10
+2025-09-10T13:35:52.267Z,INFO,Thread-10,com.amazonaws.services.glue.GlueContext,19616,The DataSink in action for the given format/connectionType (s3) is com.amazonaws.services.glue.sinks.HadoopDataSink,2025-09-10
+2025-09-10T13:35:52.437Z,INFO,Thread-10,com.amazon.ws.emr.hadoop.fs.guice.DefaultAWSCredentialsProviderFactory,19786,"Unable to create provider using constructor: DefaultAWSCredentialsProviderChain(java.net.URI, org.apache.hadoop.conf.Configuration)",2025-09-10
+2025-09-10T13:35:52.441Z,INFO,Thread-10,com.amazon.ws.emr.hadoop.fs.util.ClientConfigurationFactory,19790,Set initial getObject socket timeout to 2000 ms.,2025-09-10
+2025-09-10T13:35:52.460Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,19809,"Block broadcast_3 stored as values in memory (estimated size 24.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.463Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,19812,"Block broadcast_3_piece0 stored as bytes in memory (estimated size 89.0 B, actual size: 89.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.464Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,19813,"Added broadcast_3_piece0 in memory on 172.39.49.172:37387 (size: 89.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.471Z,INFO,Thread-10,org.apache.spark.SparkContext,19820,Created broadcast 3 from broadcast at HadoopDataSink.scala:207,2025-09-10
+2025-09-10T13:35:52.484Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,19833,"Block broadcast_4 stored as values in memory (estimated size 88.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.489Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,19838,"Block broadcast_4_piece0 stored as bytes in memory (estimated size 315.0 B, actual size: 315.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.490Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,19839,"Added broadcast_4_piece0 in memory on 172.39.49.172:37387 (size: 315.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.491Z,INFO,Thread-10,org.apache.spark.SparkContext,19840,Created broadcast 4 from broadcast at HadoopDataSink.scala:213,2025-09-10
+2025-09-10T13:35:52.541Z,INFO,Thread-10,org.apache.spark.SparkContext,19890,Starting job: runJob at GlueParquetHadoopWriter.scala:176,2025-09-10
+2025-09-10T13:35:52.563Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,19912,Got job 0 (runJob at GlueParquetHadoopWriter.scala:176) with 1 output partitions,2025-09-10
+2025-09-10T13:35:52.564Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,19913,Final stage: ResultStage 0 (runJob at GlueParquetHadoopWriter.scala:176),2025-09-10
+2025-09-10T13:35:52.564Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,19913,Parents of final stage: List(),2025-09-10
+2025-09-10T13:35:52.567Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,19916,Missing parents: List(),2025-09-10
+2025-09-10T13:35:52.594Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,19943,"Submitting ResultStage 0 (MapPartitionsRDD[27] at filter at DynamicFrame.scala:165), which has no missing parents",2025-09-10
+2025-09-10T13:35:52.665Z,INFO,dag-scheduler-event-loop,org.apache.spark.storage.memory.MemoryStore,20014,"Block broadcast_5 stored as values in memory (estimated size 225.7 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.671Z,INFO,dag-scheduler-event-loop,org.apache.spark.storage.memory.MemoryStore,20020,"Block broadcast_5_piece0 stored as bytes in memory (estimated size 83.0 KiB, actual size: 83.0 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.672Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,20021,"Added broadcast_5_piece0 in memory on 172.39.49.172:37387 (size: 83.0 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:52.674Z,INFO,dag-scheduler-event-loop,org.apache.spark.SparkContext,20023,Created broadcast 5 from broadcast at DAGScheduler.scala:1664,2025-09-10
+2025-09-10T13:35:52.698Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,20047,Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[27] at filter at DynamicFrame.scala:165) (first 15 tasks are for partitions Vector(0)),2025-09-10
+2025-09-10T13:35:52.700Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.TaskSchedulerImpl,20049,Adding task set 0.0 with 1 tasks resource profile 0,2025-09-10
+2025-09-10T13:35:52.735Z,INFO,dispatcher-CoarseGrainedScheduler,org.apache.spark.scheduler.TaskSetManager,20084,"Starting task 0.0 in stage 0.0 (TID 0) (172.36.232.66, executor 2, partition 0, ANY, 9866 bytes)",2025-09-10
+2025-09-10T13:35:53.018Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,20367,"Added broadcast_5_piece0 in memory on 172.36.232.66:46411 (size: 83.0 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:35:54.324Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,21673,"Added broadcast_2_piece0 in memory on 172.36.232.66:46411 (size: 41.8 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.818Z,INFO,task-result-getter-0,org.apache.spark.scheduler.TaskSetManager,33167,Finished task 0.0 in stage 0.0 (TID 0) in 13098 ms on 172.36.232.66 (executor 2) (1/1),2025-09-10
+2025-09-10T13:36:05.821Z,INFO,task-result-getter-0,org.apache.spark.scheduler.TaskSchedulerImpl,33170,"Removed TaskSet 0.0, whose tasks have all completed, from pool",2025-09-10
+2025-09-10T13:36:05.825Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33174,ResultStage 0 (runJob at GlueParquetHadoopWriter.scala:176) finished in 13.195 s,2025-09-10
+2025-09-10T13:36:05.835Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33184,Job 0 is finished. Cancelling potential speculative or zombie tasks for this job,2025-09-10
+2025-09-10T13:36:05.836Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.TaskSchedulerImpl,33185,Killing all running tasks in stage 0: Stage finished,2025-09-10
+2025-09-10T13:36:05.838Z,INFO,Thread-10,org.apache.spark.scheduler.DAGScheduler,33187,"Job 0 finished: runJob at GlueParquetHadoopWriter.scala:176, took 13.296707 s",2025-09-10
+2025-09-10T13:36:05.842Z,INFO,Thread-10,com.amazonaws.services.glue.sinks.HadoopDataSink,33191,enableUpdateCatalog = false,2025-09-10
+2025-09-10T13:36:05.842Z,INFO,Thread-10,com.amazonaws.services.glue.sinks.HadoopDataSink,33191,partitionKeys is empty - true,2025-09-10
+2025-09-10T13:36:05.843Z,INFO,Thread-10,com.amazonaws.services.glue.sinks.HadoopDataSink,33192,"nameSpace: , table:",2025-09-10
+2025-09-10T13:36:05.846Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,33195,DynamicFrame - create,2025-09-10
+2025-09-10T13:36:05.848Z,INFO,Thread-10,com.amazonaws.services.glue.GlueContext,33197,Glue secret manager integration: secretId is not provided.,2025-09-10
+2025-09-10T13:36:05.849Z,TRACE,Thread-10,com.amazonaws.services.glue.GlueContext,33198,datasink_s3 is used.,2025-09-10
+2025-09-10T13:36:05.851Z,INFO,Thread-10,com.amazonaws.services.glue.GlueContext,33200,The DataSink in action for the given format/connectionType (s3) is com.amazonaws.services.glue.sinks.HadoopDataSink,2025-09-10
+2025-09-10T13:36:05.889Z,INFO,Thread-10,com.amazonaws.services.glue.writers.AvroWriterUtil.AvroRecordBuilderUtil$,33238,Creating default Avro record builder for version 1.7.,2025-09-10
+2025-09-10T13:36:05.904Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,33253,"Block broadcast_6 stored as values in memory (estimated size 24.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.907Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,33256,"Block broadcast_6_piece0 stored as bytes in memory (estimated size 89.0 B, actual size: 89.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.907Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,33256,"Added broadcast_6_piece0 in memory on 172.39.49.172:37387 (size: 89.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.909Z,INFO,Thread-10,org.apache.spark.SparkContext,33258,Created broadcast 6 from broadcast at HadoopDataSink.scala:207,2025-09-10
+2025-09-10T13:36:05.911Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,33260,"Block broadcast_7 stored as values in memory (estimated size 88.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.912Z,INFO,Thread-10,org.apache.spark.storage.memory.MemoryStore,33261,"Block broadcast_7_piece0 stored as bytes in memory (estimated size 315.0 B, actual size: 315.0 B, free 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.914Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,33263,"Added broadcast_7_piece0 in memory on 172.39.49.172:37387 (size: 315.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.915Z,INFO,Thread-10,org.apache.spark.SparkContext,33264,Created broadcast 7 from broadcast at HadoopDataSink.scala:213,2025-09-10
+2025-09-10T13:36:05.938Z,INFO,Thread-10,org.apache.spark.SparkContext,33287,Starting job: runJob at HadoopWriters.scala:129,2025-09-10
+2025-09-10T13:36:05.940Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33289,Got job 1 (runJob at HadoopWriters.scala:129) with 1 output partitions,2025-09-10
+2025-09-10T13:36:05.942Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33291,Final stage: ResultStage 1 (runJob at HadoopWriters.scala:129),2025-09-10
+2025-09-10T13:36:05.943Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33292,Parents of final stage: List(),2025-09-10
+2025-09-10T13:36:05.943Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33292,Missing parents: List(),2025-09-10
+2025-09-10T13:36:05.944Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33293,"Submitting ResultStage 1 (MapPartitionsRDD[29] at filter at DynamicFrame.scala:165), which has no missing parents",2025-09-10
+2025-09-10T13:36:05.980Z,INFO,dag-scheduler-event-loop,org.apache.spark.storage.memory.MemoryStore,33329,"Block broadcast_8 stored as values in memory (estimated size 225.7 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.985Z,INFO,dag-scheduler-event-loop,org.apache.spark.storage.memory.MemoryStore,33334,"Block broadcast_8_piece0 stored as bytes in memory (estimated size 83.1 KiB, actual size: 83.1 KiB, free 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.986Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,33335,"Added broadcast_8_piece0 in memory on 172.39.49.172:37387 (size: 83.1 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:05.989Z,INFO,dag-scheduler-event-loop,org.apache.spark.SparkContext,33338,Created broadcast 8 from broadcast at DAGScheduler.scala:1664,2025-09-10
+2025-09-10T13:36:05.991Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,33340,Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[29] at filter at DynamicFrame.scala:165) (first 15 tasks are for partitions Vector(0)),2025-09-10
+2025-09-10T13:36:05.992Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.TaskSchedulerImpl,33341,Adding task set 1.0 with 1 tasks resource profile 0,2025-09-10
+2025-09-10T13:36:05.994Z,INFO,dispatcher-CoarseGrainedScheduler,org.apache.spark.scheduler.TaskSetManager,33343,"Starting task 0.0 in stage 1.0 (TID 1) (172.34.197.149, executor 3, partition 0, ANY, 9866 bytes)",2025-09-10
+2025-09-10T13:36:06.315Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,33664,"Added broadcast_8_piece0 in memory on 172.34.197.149:46121 (size: 83.1 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:06.811Z,INFO,pool-6-thread-1,com.amazonaws.services.glue.LogPusher,34160,uploading file:///var/log/spark/apps to s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/,2025-09-10
+2025-09-10T13:36:07.180Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,34529,"Removed broadcast_3_piece0 on 172.39.49.172:37387 in memory (size: 89.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:07.225Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,34574,"Removed broadcast_5_piece0 on 172.39.49.172:37387 in memory (size: 83.0 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:07.229Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,34578,"Removed broadcast_5_piece0 on 172.36.232.66:46411 in memory (size: 83.0 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:07.234Z,INFO,pool-6-thread-1,com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream,34583,close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d.inprogress,2025-09-10
+2025-09-10T13:36:07.243Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,34592,"Removed broadcast_4_piece0 on 172.39.49.172:37387 in memory (size: 315.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:07.589Z,INFO,pool-6-thread-1,com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream,34938,close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/spark-application-1757511341101.inprogress,2025-09-10
+2025-09-10T13:36:08.240Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,35589,"Added broadcast_2_piece0 in memory on 172.34.197.149:46121 (size: 41.8 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:12.442Z,ERROR,metrics-coda-hale-metrics-cloud-watch-reporter-1-thread-1,org.apache.spark.metrics.sink.GlueCloudWatchReporter,39791,"Error reporting metrics to CloudWatch. The data in this CloudWatch API request may have been discarded, did not make it to CloudWatch.",2025-09-10
+2025-09-10T13:36:23.443Z,INFO,task-result-getter-1,org.apache.spark.scheduler.TaskSetManager,50792,Finished task 0.0 in stage 1.0 (TID 1) in 17450 ms on 172.34.197.149 (executor 3) (1/1),2025-09-10
+2025-09-10T13:36:23.443Z,INFO,task-result-getter-1,org.apache.spark.scheduler.TaskSchedulerImpl,50792,"Removed TaskSet 1.0, whose tasks have all completed, from pool",2025-09-10
+2025-09-10T13:36:23.444Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,50793,ResultStage 1 (runJob at HadoopWriters.scala:129) finished in 17.490 s,2025-09-10
+2025-09-10T13:36:23.445Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.DAGScheduler,50794,Job 1 is finished. Cancelling potential speculative or zombie tasks for this job,2025-09-10
+2025-09-10T13:36:23.445Z,INFO,dag-scheduler-event-loop,org.apache.spark.scheduler.TaskSchedulerImpl,50794,Killing all running tasks in stage 1: Stage finished,2025-09-10
+2025-09-10T13:36:23.446Z,INFO,Thread-10,org.apache.spark.scheduler.DAGScheduler,50795,"Job 1 finished: runJob at HadoopWriters.scala:129, took 17.508275 s",2025-09-10
+2025-09-10T13:36:23.447Z,INFO,Thread-10,com.amazonaws.services.glue.sinks.HadoopDataSink,50796,enableUpdateCatalog = false,2025-09-10
+2025-09-10T13:36:23.447Z,INFO,Thread-10,com.amazonaws.services.glue.sinks.HadoopDataSink,50796,partitionKeys is empty - true,2025-09-10
+2025-09-10T13:36:23.447Z,INFO,Thread-10,com.amazonaws.services.glue.sinks.HadoopDataSink,50796,"nameSpace: , table:",2025-09-10
+2025-09-10T13:36:23.448Z,TRACE,Thread-10,com.amazonaws.services.glue.DynamicFrame,50797,DynamicFrame - create,2025-09-10
+2025-09-10T13:36:23.502Z,INFO,main,com.amazonaws.services.glue.ProcessLauncher,50851,postprocessing,2025-09-10
+2025-09-10T13:36:23.502Z,INFO,main,com.amazonaws.services.glue.ProcessLauncher,50851,Enhance failure reason and emit cloudwatch error metrics.,2025-09-10
+2025-09-10T13:36:23.503Z,DEBUG,main,com.amazonaws.services.glue.ProcessLauncher,50852,Original failureReason:,2025-09-10
+2025-09-10T13:36:23.504Z,DEBUG,main,com.amazonaws.services.glue.ProcessLauncher,50853,exceptionErrorMessage is:,2025-09-10
+2025-09-10T13:36:23.521Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,50870,Emit job error metrics,2025-09-10
+2025-09-10T13:36:23.602Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,50951,"Failed to emit error metric data: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 5ae7528c-4e9e-49ea-b415-97e92f2330a1)",2025-09-10
+2025-09-10T13:36:23.602Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,50951,Retry attempt 1/3,2025-09-10
+2025-09-10T13:36:26.740Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,54089,"Removed broadcast_6_piece0 on 172.39.49.172:37387 in memory (size: 89.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:26.746Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,54095,"Removed broadcast_8_piece0 on 172.39.49.172:37387 in memory (size: 83.1 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:26.752Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,54101,"Removed broadcast_8_piece0 on 172.34.197.149:46121 in memory (size: 83.1 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:26.764Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,54113,"Removed broadcast_7_piece0 on 172.39.49.172:37387 in memory (size: 315.0 B, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:26.779Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,54128,"Removed broadcast_2_piece0 on 172.39.49.172:37387 in memory (size: 41.8 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:26.780Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,54129,"Removed broadcast_2_piece0 on 172.36.232.66:46411 in memory (size: 41.8 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:26.783Z,INFO,dispatcher-BlockManagerMaster,org.apache.spark.storage.BlockManagerInfo,54132,"Removed broadcast_2_piece0 on 172.34.197.149:46121 in memory (size: 41.8 KiB, free: 5.8 GiB)",2025-09-10
+2025-09-10T13:36:27.571Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,54920,Emit job error metrics,2025-09-10
+2025-09-10T13:36:27.581Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,54930,"Failed to emit error metric data: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 27602b0e-aa57-4dd1-a63e-0b66695f4fca)",2025-09-10
+2025-09-10T13:36:27.582Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,54931,Retry attempt 2/3,2025-09-10
+2025-09-10T13:36:31.521Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,58870,Emit job error metrics,2025-09-10
+2025-09-10T13:36:31.531Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,58880,"Failed to emit error metric data: User: arn:aws:sts::718465053629:assumed-role/aws-glue-notebook/GlueJobRunnerSession is not authorized to perform: cloudwatch:PutMetricData because no identity-based policy allows the cloudwatch:PutMetricData action (Service: CloudWatch, Status Code: 403, Request ID: 03b585d5-f354-4e1c-b1bc-bbb47161f725)",2025-09-10
+2025-09-10T13:36:31.532Z,INFO,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,58881,Retry attempt 3/3,2025-09-10
+2025-09-10T13:36:31.532Z,WARN,main,com.amazonaws.services.glue.CloudWatchMetricsEmitter,58881,Max retries reached. Unable to emit error metric data.,2025-09-10
+2025-09-10T13:36:31.538Z,INFO,main,com.amazonaws.services.glue.LogPusher,58887,stopping,2025-09-10
+2025-09-10T13:36:31.541Z,INFO,shutdown-hook-0,org.apache.spark.SparkContext,58890,Invoking stop() from shutdown hook,2025-09-10
+2025-09-10T13:36:31.541Z,INFO,shutdown-hook-0,org.apache.spark.SparkContext,58890,SparkContext is stopping with exitCode 0.,2025-09-10
+2025-09-10T13:36:31.545Z,INFO,spark-listener-group-shared,com.amazonaws.services.glueexceptionanalysis.EventLogFileWriter,58894,"Logs, events processed and insights are written to file /tmp/glue-exception-analysis-logs/spark-application-1757511341101",2025-09-10
+2025-09-10T13:36:31.546Z,INFO,shutdown-hook-0,org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend,58895,Stopping JES Scheduler Backend.,2025-09-10
+2025-09-10T13:36:31.547Z,INFO,spark-listener-group-shared,glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics,58896,"Spark application ended, timestamp = 1757511391542",2025-09-10
+2025-09-10T13:36:31.548Z,WARN,spark-listener-group-shared,glue.ch.cern.sparkmeasure.FlightRecorderStageMetrics,58897,Writing Stage Metrics data serialized as json to /tmp/stageMetrics_flightRecorder,2025-09-10
+2025-09-10T13:36:31.548Z,INFO,shutdown-hook-0,org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend,58897,Shutting down all executors,2025-09-10
+2025-09-10T13:36:31.548Z,INFO,dispatcher-CoarseGrainedScheduler,org.apache.spark.scheduler.cluster.glue.JESSchedulerBackend$JESAsSchedulerBackendEndpoint,58897,Asking each executor to shut down,2025-09-10
+2025-09-10T13:36:31.649Z,INFO,spark-listener-group-shared,glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics,58998,"Spark application ended, timestamp = 1757511391542",2025-09-10
+2025-09-10T13:36:31.657Z,INFO,spark-listener-group-shared,glue.ch.cern.sparkmeasure.FlightRecorderTaskMetrics,59006,Writing Task Metrics data serialized as json to /tmp/taskMetrics_flightRecorder,2025-09-10
+2025-09-10T13:36:31.737Z,INFO,dispatcher-event-loop-3,org.apache.spark.MapOutputTrackerMasterEndpoint,59086,MapOutputTrackerMasterEndpoint stopped!,2025-09-10
+2025-09-10T13:36:31.751Z,INFO,shutdown-hook-0,org.apache.spark.storage.memory.MemoryStore,59100,MemoryStore cleared,2025-09-10
+2025-09-10T13:36:31.753Z,INFO,shutdown-hook-0,org.apache.spark.storage.BlockManager,59102,BlockManager stopped,2025-09-10
+2025-09-10T13:36:31.759Z,INFO,shutdown-hook-0,org.apache.spark.storage.BlockManagerMaster,59108,BlockManagerMaster stopped,2025-09-10
+2025-09-10T13:36:31.823Z,ERROR,shutdown-hook-0,org.apache.spark.metrics.sink.GlueCloudWatchReporter,59172,"Error reporting metrics to CloudWatch. The data in this CloudWatch API request may have been discarded, did not make it to CloudWatch.",2025-09-10
+2025-09-10T13:36:31.857Z,INFO,dispatcher-event-loop-3,org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint,59206,OutputCommitCoordinator stopped!,2025-09-10
+2025-09-10T13:36:31.908Z,INFO,shutdown-hook-0,org.apache.spark.SparkContext,59257,Successfully stopped SparkContext,2025-09-10
+2025-09-10T13:36:31.910Z,INFO,shutdown-hook-0,com.amazonaws.services.glue.LogPusher,59259,uploading file:///var/log/spark/apps to s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/,2025-09-10
+2025-09-10T13:36:31.987Z,INFO,shutdown-hook-0,com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream,59336,close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/jr_abeec7a629dbdd0b2a85341d68fc44240c90423c19d39a89788cb1e38c7c826d,2025-09-10
+2025-09-10T13:36:32.085Z,INFO,shutdown-hook-0,com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream,59434,close closed:false s3://aws-glue-assets-718465053629-us-east-1/sparkHistoryLogs/spark-application-1757511341101,2025-09-10
+2025-09-10T13:36:32.147Z,INFO,shutdown-hook-0,org.apache.spark.util.ShutdownHookManager,59496,Shutdown hook called,2025-09-10
+2025-09-10T13:36:32.147Z,INFO,shutdown-hook-0,org.apache.spark.util.ShutdownHookManager,59496,Deleting directory /tmp/spark-1341c081-3290-40d6-b503-fb7367c2e58b/pyspark-5f4d84e5-1a2a-4ab6-b5d5-8ff70ee2223d,2025-09-10
+2025-09-10T13:36:32.153Z,INFO,shutdown-hook-0,org.apache.spark.util.ShutdownHookManager,59502,Deleting directory /tmp/spark-0d8aa955-c5b7-4d3a-9a7e-8692efe0179a,2025-09-10
+2025-09-10T13:36:32.159Z,INFO,shutdown-hook-0,org.apache.spark.util.ShutdownHookManager,59508,Deleting directory /tmp/spark-1341c081-3290-40d6-b503-fb7367c2e58b,2025-09-10
